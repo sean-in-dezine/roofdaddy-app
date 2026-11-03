@@ -1,0 +1,14 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>RoofDaddy</title><link rel="stylesheet" href="style.css"></head><body>
+<header><h1>RoofDaddy</h1><div id="clock"></div></header>
+<div id="banner" class="banner"></div>
+<section class="filters">
+ <select id="fArea"><option value="">All areas</option><option value="permit">Permit areas</option><option value="nonpermit">Non-permit areas</option></select>
+ <select id="fCity"><option value="">All cities</option></select>
+ <label>Min score <input id="fScore" type="number" min="0" max="100" value="0"></label>
+</section>
+<div class="tabs"><button id="tLeads" class="on">Leads</button><button id="tQueue">RoofCRM queue (<span id="qCount">0</span>)</button></div>
+<main id="list"></main>
+<script src="app.js"></script></body></html>

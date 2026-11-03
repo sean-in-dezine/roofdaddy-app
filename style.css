@@ -1,0 +1,10 @@
+*{box-sizing:border-box}body{margin:0;font:16px -apple-system,system-ui,sans-serif;background:#f4f4f4;color:#222}
+header{display:flex;justify-content:space-between;align-items:center;padding:12px 14px;background:#1f3a5f;color:#fff}h1{margin:0;font-size:20px}
+.banner{padding:8px 14px;font-size:14px;background:#fff3cd}.banner:empty{display:none}
+.filters{display:flex;flex-wrap:wrap;gap:8px;padding:10px 14px}.filters select,.filters input{font-size:16px;padding:8px}.filters input{width:70px}
+.tabs{display:flex;padding:0 14px;gap:8px}.tabs button{flex:1;padding:10px;border:0;border-radius:8px;background:#ddd;font-size:15px}.tabs .on{background:#1f3a5f;color:#fff}
+main{padding:10px 14px}.card{background:#fff;border-radius:10px;padding:12px;margin-bottom:10px;box-shadow:0 1px 3px #0002}
+.row{display:flex;justify-content:space-between;gap:8px}.muted{color:#666;font-size:14px}.score{font-weight:700}
+.btns{display:flex;gap:8px;margin-top:10px}.btns a,.btns button{flex:1;text-align:center;padding:12px;border-radius:8px;border:0;font-size:16px;text-decoration:none}
+.call{background:#1a8f3c;color:#fff}.call.off{background:#bbb;pointer-events:none}.push{background:#e8eef6;color:#1f3a5f}
+.dnc{color:#b00020;font-weight:700}select.outcome,textarea{width:100%;margin-top:8px;font-size:16px;padding:8px}textarea{min-height:60px}

@@ -1,0 +1,96 @@
+{
+ "_note": "SAMPLE DATA ONLY - fake people and 555-01xx numbers. Real format comes from RoofDaddy Data.",
+ "leads": [
+  {
+   "id": "s1",
+   "name": "SAMPLE Jane Doe",
+   "address": "100 Sample St",
+   "city": "Pflugerville",
+   "area": "permit",
+   "phone": "+15125550101",
+   "yearBuilt": 1998,
+   "roofScore": 88,
+   "dnc": false,
+   "state": "TX",
+   "zip": "78660"
+  },
+  {
+   "id": "s2",
+   "name": "SAMPLE John Roe",
+   "address": "200 Example Ave",
+   "city": "Georgetown",
+   "area": "permit",
+   "phone": "+15125550102",
+   "yearBuilt": 2004,
+   "roofScore": 74,
+   "dnc": false,
+   "state": "TX",
+   "zip": "78626"
+  },
+  {
+   "id": "s3",
+   "name": "SAMPLE Pat Smith",
+   "address": "300 Test Ln",
+   "city": "Killeen",
+   "area": "permit",
+   "phone": "+12545550103",
+   "yearBuilt": 1991,
+   "roofScore": 92,
+   "dnc": true,
+   "state": "TX",
+   "zip": "76541"
+  },
+  {
+   "id": "s4",
+   "name": "SAMPLE Alex Lee",
+   "address": "400 Demo Dr",
+   "city": "Austin",
+   "area": "nonpermit",
+   "phone": "+15125550104",
+   "yearBuilt": 1985,
+   "roofScore": 81,
+   "dnc": false,
+   "state": "TX",
+   "zip": "78704"
+  },
+  {
+   "id": "s5",
+   "name": "SAMPLE Sam Fox",
+   "address": "500 Mock Rd",
+   "city": "Round Rock",
+   "area": "nonpermit",
+   "phone": "+17375550105",
+   "yearBuilt": 2001,
+   "roofScore": 63,
+   "dnc": false,
+   "state": "TX",
+   "zip": "78664"
+  },
+  {
+   "id": "s6",
+   "name": "SAMPLE Kim Ray",
+   "address": "600 Faux Ct",
+   "city": "San Antonio",
+   "area": "permit",
+   "phone": "+12105550106",
+   "yearBuilt": 1995,
+   "roofScore": 79,
+   "dnc": false,
+   "state": "TX",
+   "zip": "78201"
+  },
+  {
+   "id": "s7",
+   "name": "SAMPLE Lou Kay",
+   "address": "700 Trial Way",
+   "city": "College Station",
+   "area": "permit",
+   "phone": "+19795550107",
+   "yearBuilt": 2008,
+   "roofScore": 58,
+   "dnc": false,
+   "state": "TX",
+   "zip": "77840"
+  }
+ ]
+}
