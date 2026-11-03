@@ -1,14 +1,26 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black">
 <title>RoofDaddy</title><link rel="stylesheet" href="style.css"></head><body>
-<header><h1>RoofDaddy</h1><div id="clock"></div></header>
-<div id="banner" class="banner"></div>
-<section class="filters">
- <select id="fArea"><option value="">All areas</option><option value="permit">Permit areas</option><option value="nonpermit">Non-permit areas</option></select>
- <select id="fCity"><option value="">All cities</option></select>
- <label>Min score <input id="fScore" type="number" min="0" max="100" value="0"></label>
-</section>
-<div class="tabs"><button id="tLeads" class="on">Leads</button><button id="tQueue">RoofCRM queue (<span id="qCount">0</span>)</button></div>
-<main id="list"></main>
+<div id="dock">
+ <div class="brand"><b>RoofDaddy · Silver Wings Roofing</b><span id="sub">SAMPLE DATA</span> · <span id="clock"></span></div>
+ <input id="q" type="search" placeholder="Search name, address, city">
+ <div class="filters" id="chips"></div>
+ <div class="filters" id="areas">
+  <button data-a="" class="on">All areas</button><button data-a="permit">Permit areas</button><button data-a="nonpermit">Non-permit areas</button>
+ </div>
+ <div id="banner"></div>
+ <details class="fold"><summary>Filters and backup</summary>
+  <div class="tools">
+   <label>City <select id="fCity"><option value="">All</option></select></label>
+   <label>Min score <input id="fScore" type="number" min="0" max="100" value="0" inputmode="numeric"></label>
+  </div>
+  <div class="tools"><button id="reveal">Unhide all</button><button id="export">Export backup</button><button id="impbtn">Import backup</button><button id="queueBtn">RoofCRM queue (<span id="qCount">0</span>)</button><input id="imp" type="file" accept="application/json" hidden></div>
+  <div id="queueView" hidden></div>
+ </details>
+ <details class="fold"><summary>Pitch</summary><div class="pitch-body" id="pitch"></div></details>
+ <div class="counts" id="counts"></div>
+</div>
+<div class="list" id="list"></div>
+<div id="toast"><span>Hidden from list</span><button id="undo">Undo</button></div>
 <script src="app.js"></script></body></html>
